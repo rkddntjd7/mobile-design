@@ -165,8 +165,79 @@ main i.fa-arrow-down {
     margin-top: 10px;
 }
 
-.adver {
+.advert {
     width: 100%;
-    height: 120px;
     position: relative;
+    margin-top: 20px;
+}
+
+.saly {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.saly-bak {
+    margin-top: 25px;
+    width: 100%;
+    height: 95px;
+    padding: 30px 25px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #e2e9ff, #ffeaea);
+}
+
+.saly-bak h1, .saly-bak p {
+    margin: 0;
+    padding: 0;
+}
+
+.saly-bak h1 {
+    font-size: 14px;
+}
+
+.saly-bak p {
+    font-size:  12px;
+    font-weight: 500;
+    color: #808080;
+}
+
+.saly-bak span {
+    background: #ffbb5656;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 2px;
+    color:  #fff;
+}
+
+/************* nav ************/
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 0;
+    background-color: #f2f7ff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.closebtn i{
+    font-size: 30px;
+}
+
+.sidenav a {
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    transition: 0.3s;
+}
+
+#main {
+    transition: margin-left .5s;
 }

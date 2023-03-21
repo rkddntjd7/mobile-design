@@ -15,14 +15,27 @@
             referrerpolicy="no-referrer"
         >
         <link rel="stylesheet" href="css/iconmoon.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Document</title>
     </head>
     <body>
+        <!-- nav -->
+        <div class="sidenav" id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+            <a href="#">we are</a>
+            <a href="#">products</a>
+            <a href="#">service</a>
+            <a href="#">clients</a>
+            <a href="#">blog</a>
+        </div>
         <div class="container">
             <header>
                 <nav>
-                    <a href="#">
+                    <a href="javascript:void(0)" onclick="openNav()">
                         <i class="icon-list"></i>
                     </a>
                     <a href="#">
@@ -30,7 +43,7 @@
                     </a>
                 </nav>
                 <section class="title">
-                    <h1>Turtle
+                    <h1>Planet
                         <br>is for room
                     </h1>
                 </section>
@@ -85,7 +98,13 @@
                             <p class="price">20,000원</p>
                         </div>
                     </li>
-                    <li class="adver">a</li>
+                    <li class="advert">
+                        <img src="images/004.png" class="saly" alt="004">
+                        <div class="saly-bak">
+                            <h1>Free Shiping</h1>
+                            <p>When ordering <span>from 4,000</span></p>
+                        </div>
+                    </li>
                     <li>
                         <div class="imgbox">
                             <div class="bkboxc"></div>
@@ -109,6 +128,9 @@
             </main>
             <footer></footer>
         </div>
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/slick.min.js"></script>
         <script src="js/work.js"></script>
+        <script src="js/work2.js"></script>
     </body>
 </html>
